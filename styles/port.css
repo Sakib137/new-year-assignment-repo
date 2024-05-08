@@ -106,3 +106,64 @@
     margin-left: 20px;
     border: none;
 }
+
+.event{
+    box-sizing: border-box;
+    margin: 50px 100px 150px 100px;
+   background-color: rgb(243, 232, 219);
+    height: 500px;
+    border-radius: 10px;
+    
+}
+.manage{
+    color: red;
+}
+.event_info{
+    text-align: center;
+    padding-top: 70px;
+}
+.event_info > h3{
+    font-size: 30px;
+    color: rgb(21, 20, 20);
+}
+.event_info > button{
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: rgb(246, 242, 242);
+    background:red;
+    border: none;
+    border-radius: 10px;
+}
+
+/* celebration part */
+
+.event2{
+    box-sizing: border-box;
+    margin: 50px 100px 150px 100px;
+   background-color: rgb(248, 245, 241);
+    height: 450px;
+    border-radius: 10px;
+}
+.overall{
+    display: flex;
+}
+.offer > h3{
+    font-size: 24px;
+    color: red;
+}
+.offer > h2{
+    font-size: 45px;
+    color: black;
+}
+.offer > p{
+    font-size: 20px;
+    color: rgb(46, 43, 43);
+}
+.cel_img{
+    border: 50px;
+    border-color: red;
+}
