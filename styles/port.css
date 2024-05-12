@@ -150,6 +150,10 @@
 }
 .overall{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
 }
 .offer > h3{
     font-size: 24px;
@@ -162,6 +166,32 @@
 .offer > p{
     font-size: 20px;
     color: rgb(46, 43, 43);
+}
+.offer{
+    text-align: justify;
+    margin: 80px 60px;
+    width: 390px;
+}
+.Celebration{
+    margin-top: 50px;
+    width: 500px;
+}
+.Celebration > image{
+    border: 10px red;
+}
+.dolar{
+    text-align: justify;
+    margin: 60px 60px;
+    width: 300px;
+}
+.dolar > p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.dolar > h2{
+    font-size: 48px;
+    color: red;
+    margin-bottom: 10px;
 }
 .cel_img{
     border: 50px;
